@@ -71,8 +71,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support " ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("Support " ,url="https://t.me/animecolony") ], 
+	[InlineKeyboardButton("Subscribe 🧐", url="https://t.me/animedualaudiozippercartoonist") ]  ]))
 	         
 
 
@@ -107,9 +107,9 @@ async def send_doc(client,message):
        c_time = time.time()
        
        if buy_date==None:
-           LIMIT = 350
-       else:
            LIMIT = 50
+       else:
+           LIMIT = 00
        then = used_date+ LIMIT
        left = round(then - c_time)
        conversion = datetime.timedelta(seconds=left)
