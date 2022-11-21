@@ -14,7 +14,7 @@ CHANNEL = os.environ.get('CHANNEL',"AnimeColony")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL","-1001858175451))
+log_channel = int(os.environ.get("LOG_CHANNEL","-1001858175451"))
 token = os.environ.get('TOKEN','5541380668:AAGH9yGr_4leFAgG35raDvAi1Q82ynMJGG0')
 botid = token.split(':')[0]
 
