@@ -16,7 +16,7 @@ from helper.set import escape_invalid_curly_brackets
 
 log_channel = int(os.environ.get("LOG_CHANNEL", "-1001858175451"))
 
-API_ID = int(os.environ.get("API_ID", "6534707"))
+API_ID = int(os.environ.get("API_ID", '6534707'))
 
 API_HASH = os.environ.get("API_HASH", "4bcc61d959a9f403b2f20149cbbe627a")
 
